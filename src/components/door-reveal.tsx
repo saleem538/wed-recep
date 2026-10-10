@@ -26,6 +26,7 @@ export function DoorReveal() {
         <div className="dr-main">
           <p className="dr-eyebrow arabic-ligature" lang="ar" dir="rtl">﷽</p>
           <p className="dr-rule" aria-hidden="true"><span>♥</span></p>
+          <p className="dr-eyebrow">WEDDING INVITATION OF</p>
           <h1 className="dr-couple">
             <span className="dr-person"><span className="dr-name">Daughter of</span><span className="dr-parent">Mrs &amp; Mr Abdul Kaleem Mujahid</span></span>
             <span className="dr-amp" aria-hidden="true">&amp;</span>
