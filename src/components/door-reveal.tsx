@@ -24,7 +24,7 @@ export function DoorReveal() {
           <button type="button" className="dr-replay" onClick={close} aria-label="Close invitation"><RotateCcw size={13} /> <span>Close</span></button>
         </header>
         <div className="dr-main">
-          <p className="dr-eyebrow">We're getting married</p>
+          <p className="dr-eyebrow arabic-ligature" lang="ar" dir="rtl">﷽</p>
           <p className="dr-rule" aria-hidden="true"><span>♥</span></p>
           <h1 className="dr-couple">
             <span className="dr-person"><span className="dr-parent">Daughter of</span><span className="dr-name">Mrs &amp; Mr Abdul Kaleem Mujahid</span></span>
