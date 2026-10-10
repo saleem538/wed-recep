@@ -38,7 +38,7 @@ function Index() {
           With best compliments from <ChevronDown className={showNames ? "rotate-180" : ""} />
         </Button>
         {showNames && <ul id="compliment-names" className="compliment-names">
-          {["dadu", "nanu", "Mr Abdul Aleem mujahid", "Mr Rafiuddin shreef", "Mr Zakiuddin shareef", "Mr Lateefuddin shareef", "Mr Shafiuddin shareef", "Mr Mohammed Faheem", "Mr Mohammed Ismail", "Mr Syed Abdul Qayum", "Mr Mohammed Akram muneer uddin"].map(name => <li key={name}>{name}</li>)}
+          {["Dadu", "Nanu", "Mr Abdul Aleem mujahid", "Mr Rafiuddin shreef", "Mr Zakiuddin shareef", "Mr Lateefuddin shareef", "Mr Shafiuddin shareef", "Mr Mohammed Faheem", "Mr Mohammed Ismail", "Mr Syed Abdul Qayum", "Mr Mohammed Akram muneer uddin"].map(name => <li key={name}>{name}</li>)}
         </ul>}
       </section>
       <section className="floral-section dates-section">
@@ -72,17 +72,6 @@ function Index() {
           <p className="venue-label">Reception venue · 3 November 2026</p>
           <h3 className="venue-name">Mahboob pride palace</h3>
           <Button variant="link" asChild><a href="https://maps.app.goo.gl/GsbLfTwoLLTKbRiQA" target="_blank" rel="noopener noreferrer" aria-label="Open Mahboob pride palace location in Google Maps"><MapPin aria-hidden="true" />Google Maps</a></Button>
-        </div>
-      </section>
-      <section className="floral-section sanchak-section" aria-labelledby="sanchak-heading">
-        <img className="floral-background" src={general.url} alt="" loading="lazy" />
-        <p className="invitation-eyebrow">Pre-wedding celebration</p>
-        <h2 className="section-title" id="sanchak-heading">Sanchak</h2>
-        <p className="section-subtitle">2:00PM</p>
-        <div className="venue-details">
-          <p className="venue-label">Sanchak venue</p>
-          <h3 className="venue-name">Unqiue palace</h3>
-          <Button variant="link" asChild><a href="https://share.google/kydG58p4KC3VtXHqM" target="_blank" rel="noopener noreferrer" aria-label="Open Unqiue palace location in Google Maps"><MapPin aria-hidden="true" />Google Maps</a></Button>
         </div>
       </section>
       <section className="floral-section closing-section">
