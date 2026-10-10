@@ -286,7 +286,7 @@ body { margin: 0; font-family: var(--font-body); letter-spacing: 0; }
 .dr-couple { margin: 0; font-weight: 400; }
 .dr-person { display: block; }
 .dr-parent { display: block; font-family: var(--dr-serif); font-style: italic; opacity: .8; font-size: clamp(14px, min(2.3svh, 3.6vw), 21px); }
-.dr-name { display: block; line-height: 1.14; font-size: clamp(21px, min(4.9svh, 5.5vw), 46px); }
+.dr-name { display: block;font-family: "Great Vibes", cursive; line-height: 1.14; font-size: clamp(21px, min(4.9svh, 5.5vw), 46px); }
 .dr-amp { display: block; font-family: var(--dr-serif); font-style: italic; color: var(--dr-gold); margin: 1.8svh 0; font-size: clamp(22px, min(3.9svh, 4.6vw), 36px); }
 .dr-details { display: flex; flex-direction: column; align-items: center; margin-top: 3.4svh; }
 .dr-date { display: flex; align-items: center; gap: 12px; margin: 0; text-transform: uppercase; letter-spacing: 2.5px; font-size: clamp(9px, min(1.5svh, 2.6vw), 11px); }
@@ -331,4 +331,14 @@ body { margin: 0; font-family: var(--font-body); letter-spacing: 0; }
   font-family: "Noto Naskh Arabic", "Amiri", serif;
   letter-spacing: 0;
   text-transform: none;
+}
+.maps-button {
+  font-size: 20px;
+}
+@font-face {
+  font-family: "Great Vibes";
+  src: url("/fonts/GreatVibes-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
 }
