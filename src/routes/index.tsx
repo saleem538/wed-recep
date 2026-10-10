@@ -38,7 +38,7 @@ function Index() {
           With best compliments from <ChevronDown className={showNames ? "rotate-180" : ""} />
         </Button>
         {showNames && <ul id="compliment-names" className="compliment-names">
-          {["Dadu", "Nanu", "Mr Abdul Aleem mujahid", "Mr Rafiuddin shreef", "Mr Zakiuddin shareef", "Mr Lateefuddin shareef", "Mr Shafiuddin shareef", "Mr Mohammed Faheem", "Mr Mohammed Ismail", "Mr Syed Abdul Qayum", "Mr Mohammed Akram muneer uddin"].map(name => <li key={name}>{name}</li>)}
+          {["Dadu", "Nanu", "Mr Abdul Aleem Mujahid","Mr Mohammed Faheem", "Mr Mohammed Ismail", "Mr Syed Abdul Qayum", "Mr Rafiuddin Shareef", "Mr Zakiuddin Shareef", "Mr Lateefuddin Shareef", "Mr Shafiuddin Shareef", "Mr Mohammed Akram Muneer Uddin"].map(name => <li key={name}>{name}</li>)}
         </ul>}
       </section>
       <section className="floral-section dates-section">
@@ -65,14 +65,14 @@ function Index() {
         <div className="venue-details">
           <p className="venue-label">Wedding venue</p>
           <h3 className="venue-name">Sudarshan Convention</h3>
-          <Button variant="link" asChild><a href="https://share.google/a4djyRf3YFNQsHYt6" target="_blank" rel="noopener noreferrer" aria-label="Open Sudarshan Convention location in Google Maps"><MapPin aria-hidden="true" />Google Maps</a></Button>
+          <Button variant="link" asChild className="maps-button"><a href="https://share.google/a4djyRf3YFNQsHYt6" target="_blank" rel="noopener noreferrer" aria-label="Open Sudarshan Convention location in Google Maps"><MapPin aria-hidden="true" />Google Maps</a></Button>
         </div>
         <div className="ornament" aria-hidden="true"><Heart size={18} strokeWidth={1} /></div>
         <div className="venue-details">
           <h2 className="section-title" id="nikah-timeline-heading">Valima</h2>
           <p className="venue-label">Reception venue · 3 November 2026</p>
           <h3 className="venue-name">Mahboob pride palace</h3>
-          <Button variant="link" asChild><a href="https://share.google/s3SkonGXYZNWBLAsH" target="_blank" rel="noopener noreferrer" aria-label="Open Mahboob pride palace location in Google Maps"><MapPin aria-hidden="true" />Google Maps</a></Button>
+          <Button variant="link" asChild className="maps-button"><a href="https://share.google/s3SkonGXYZNWBLAsH" target="_blank" rel="noopener noreferrer" aria-label="Open Mahboob pride palace location in Google Maps"><MapPin aria-hidden="true" />Google Maps</a></Button>
         </div>
       </section>
       <section className="floral-section closing-section">
