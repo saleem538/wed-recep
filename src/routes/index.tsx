@@ -63,13 +63,13 @@ function Index() {
           <li><Clock size={21} strokeWidth={1} aria-hidden="true" /><span>Ceremony: 1AM</span></li>
         </ol>
         <div className="venue-details">
-          <h2 className="section-title" id="nikah-timeline-heading">Valima</h2>
           <p className="venue-label">Wedding venue</p>
           <h3 className="venue-name">Sudarshan Convention</h3>
           <Button variant="link" asChild><a href="https://share.google/a4djyRf3YFNQsHYt6" target="_blank" rel="noopener noreferrer" aria-label="Open Sudarshan Convention location in Google Maps"><MapPin aria-hidden="true" />Google Maps</a></Button>
         </div>
         <div className="ornament" aria-hidden="true"><Heart size={18} strokeWidth={1} /></div>
         <div className="venue-details">
+          <h2 className="section-title" id="nikah-timeline-heading">Valima</h2>
           <p className="venue-label">Reception venue · 3 November 2026</p>
           <h3 className="venue-name">Mahboob pride palace</h3>
           <Button variant="link" asChild><a href="https://maps.app.goo.gl/GsbLfTwoLLTKbRiQA" target="_blank" rel="noopener noreferrer" aria-label="Open Mahboob pride palace location in Google Maps"><MapPin aria-hidden="true" />Google Maps</a></Button>
