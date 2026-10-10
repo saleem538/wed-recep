@@ -317,3 +317,10 @@ body { margin: 0; font-family: var(--font-body); letter-spacing: 0; }
 @keyframes dr-in { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: none; } }
 @media (max-width: 540px) { .dr-invitation { padding: 6svh 18px 29svh; } .dr-date { letter-spacing: 1.6px; gap: 8px; } .dr-date i { width: 10px; } .dr-caption p { font-size: 20px; } }
 @media (prefers-reduced-motion: reduce) { .dr-door, .dr-caption, .dr-curtain { transition-duration: 10ms; } .dr.is-open .dr-curtain, .dr.is-open .dr-doors { transition-delay: 10ms; } .dr.is-open .dr-main, .dr.is-open .dr-top { animation-duration: 10ms; animation-delay: 10ms; } }
+.arabic-ligature {
+  font-size: 24px;
+  line-height: 1.4;
+  font-family: "Noto Naskh Arabic", "Amiri", serif;
+  letter-spacing: 0;
+  text-transform: none;
+}
