@@ -65,14 +65,14 @@ function Index() {
         <div className="venue-details">
           <p className="venue-label">Wedding venue</p>
           <h3 className="venue-name">Sudarshan Convention</h3>
-          <Button variant="link" asChild className="maps-button"><a href="https://share.google/a4djyRf3YFNQsHYt6" target="_blank" rel="noopener noreferrer" aria-label="Open Sudarshan Convention location in Google Maps"><MapPin aria-hidden="true" />Google Maps</a></Button>
+          <Button variant="link" asChild className="maps-button"><a href="https://share.google/a4djyRf3YFNQsHYt6" target="_blank" rel="noopener noreferrer" aria-label="Open Sudarshan Convention location in Google Maps"><span className="white-hand" aria-hidden="true">👉</span>Google Maps</a></Button>
         </div>
         <div className="ornament" aria-hidden="true"><Heart size={18} strokeWidth={1} /></div>
         <div className="venue-details">
           <h2 className="section-title" id="nikah-timeline-heading">Valima</h2>
           <p className="venue-label">Reception venue · 3 November 2026</p>
           <h3 className="venue-name">Mahboob pride palace</h3>
-          <Button variant="link" asChild className="maps-button"><a href="https://share.google/s3SkonGXYZNWBLAsH" target="_blank" rel="noopener noreferrer" aria-label="Open Mahboob pride palace location in Google Maps"><MapPin aria-hidden="true" />Google Maps</a></Button>
+          <Button variant="link" asChild className="maps-button"><a href="https://share.google/s3SkonGXYZNWBLAsH" target="_blank" rel="noopener noreferrer" aria-label="Open Mahboob pride palace location in Google Maps"><span className="white-hand" aria-hidden="true">👉</span>Google Maps</a></Button>
         </div>
       </section>
       <section className="floral-section closing-section">
@@ -88,7 +88,7 @@ function Index() {
             <p className="info-box-copy"><a href="tel:+918790858515">+91 8790858515</a><br /><a href="tel:+917396308824">+91 7396308824</a></p>
           </div>
         </div>
-        <p className="made-by">Made by - Bhootnath :)</p>
+        <p className="made-by">Made by - Saleem Mujahid :)</p>
       </section>
     </main>
   );
