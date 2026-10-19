@@ -256,6 +256,7 @@ body { margin: 0; font-family: var(--font-body); letter-spacing: 0; }
   .section-title { font-size: 33px; }
   .section-subtitle { font-size: 19px; }
   .dates-section { min-height: 760px; padding-top: 45px; padding-bottom: 55px; }
+  .scratch-card { height: 205px; }
   .revealed-dates p { font-size: 22px; }
   .scratch-label span { font-size: 28px; }
   .countdown { margin: 26px 0 18px; }
@@ -285,7 +286,7 @@ body { margin: 0; font-family: var(--font-body); letter-spacing: 0; }
 .dr-rule span { padding: 0 10px; font-size: 10px; line-height: 1; }
 .dr-couple { margin: 0; font-weight: 400; }
 .dr-person { display: block; }
-.dr-parent { display: block; font-family: var(--dr-serif); font-style: italic; opacity: .8; font-size: clamp(14px, min(2.3svh, 3.6vw), 21px); }
+.dr-parent { display: block; font-family: var(--dr-serif); font-style: italic,bold; opacity: .8; font-size: clamp(14px, min(2.3svh, 3.6vw), 21px); }
 .dr-name { display: block;font-family: "Great Vibes", cursive; line-height: 1.14; font-size: clamp(21px, min(4.9svh, 5.5vw), 46px); }
 .dr-amp { display: block; font-family: var(--dr-serif); font-style: italic; color: var(--dr-gold); margin: 1.8svh 0; font-size: clamp(22px, min(3.9svh, 4.6vw), 36px); }
 .dr-details { display: flex; flex-direction: column; align-items: center; margin-top: 3.4svh; }
@@ -326,7 +327,7 @@ body { margin: 0; font-family: var(--font-body); letter-spacing: 0; }
 @media (max-width: 540px) { .dr-invitation { padding: 6svh 18px 29svh; } .dr-date { letter-spacing: 1.6px; gap: 8px; } .dr-date i { width: 10px; } .dr-caption p { font-size: 20px; } }
 @media (prefers-reduced-motion: reduce) { .dr-door, .dr-caption, .dr-curtain { transition-duration: 10ms; } .dr.is-open .dr-curtain, .dr.is-open .dr-doors { transition-delay: 10ms; } .dr.is-open .dr-main, .dr.is-open .dr-top { animation-duration: 10ms; animation-delay: 10ms; } }
 .arabic-ligature {
-  font-size: 24px;
+  font-size: 48px;
   line-height: 1.4;
   font-family: "Noto Naskh Arabic", "Amiri", serif;
   letter-spacing: 0;
@@ -341,4 +342,27 @@ body { margin: 0; font-family: var(--font-body); letter-spacing: 0; }
   font-weight: 400;
   font-style: normal;
   font-display: swap;
+}
+.dr-name {
+  font-size: 48px;
+}
+.dr-parent {
+  font-size: 20px;
+}
+.dr-scroll {
+  margin-top: 20px;
+  border: 0;
+  background: transparent;
+  color: var(--dr-ink);
+  font: inherit;
+  cursor: pointer;
+}
+.made-by{
+  font-size: 10px;
+}
+.white-hand {
+  filter: grayscale(1) brightness(0) invert(1);
+}
+.dr-eyebrow {
+  font-size: 20px;
 }
